@@ -1,30 +1,23 @@
-node {
-    // Clean workspace before doing anything
-    deleteDir()
-
-    try {
-        stage ('Clone') {
-            checkout scm
-        }
-        stage ('Build') {
-             echo "shell scripts to build project..."
-        }
-        stage ('Tests') {
-            parallel 'static': {
-                echo "shell scripts to run static tests..."
-            },
-            'unit': {
-                echo "shell scripts to run unit tests..."
-            },
-            'integration': {
-                echo "shell scripts to run integration tests..."
+pipeline {
+    agent any
+    tools { 
+        maven 'Maven 3.3.9' 
+        jdk 'jdk8' 
+    }
+    stages {
+        stage ('Initialize') {
+            steps {
+               
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+     
             }
         }
-        stage ('Deploy') {
-            echo "shell scripts to deploy to server..."
+
+        stage ('Build') {
+            steps {
+                echo 'This is a minimal pipeline.'
+            }
         }
-    } catch (err) {
-        currentBuild.result = 'FAILED'
-        throw err
     }
 }
