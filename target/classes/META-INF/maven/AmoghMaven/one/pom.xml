@@ -16,6 +16,7 @@
 
 <suiteXmlFile>E:\Amog java\one\testng.xml</suiteXmlFile>
 <suiteXmlFile>E:\Amog java\one\testngb1.xml</suiteXmlFile>
+<suiteXmlFile>E:\Amog java\one\testngb2.xml</suiteXmlFile>
  
 
   </properties>
@@ -28,12 +29,17 @@
         <version>3.4.0</version>
     </dependency>  
     
-    <!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 <dependency>
     <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>3.7</version>
+    <artifactId>poi-ooxml</artifactId>
+    <version>3.15</version>
 </dependency>
+
+
+
 <dependency>
   <groupId>org.testng</groupId>
   <artifactId>testng</artifactId>

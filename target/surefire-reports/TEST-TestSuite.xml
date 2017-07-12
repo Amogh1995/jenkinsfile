@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="8.357" tests="2" errors="0" skipped="0" failures="1">
+<testsuite name="TestSuite" time="42.101" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="E:\Amog java\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7463586901742712745.tmp"/>
+    <property name="classworlds.conf" value="E:\Amog java\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf6406044368920281448.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_131/bin/server;C:/Program Files/Java/jre1.8.0_131/bin;C:/Program Files/Java/jre1.8.0_131/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS;C:\WINDOWS\system32;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files (x86)\Android\android-sdk\platform-tools;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_131\bin;E:\Amog java\apache-maven-3.5.0\bin;C:\Users\adith\AppData\Local\Microsoft\WindowsApps;;C:\Users\adith\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
@@ -60,19 +60,6 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="jb" classname="AmoghMaven.one.build1" time="8.357">
-    <failure message="This checks for the login expected [Googlye] but found [Google]" type="java.lang.AssertionError">java.lang.AssertionError: This checks for the login expected [Googlye] but found [Google]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:494)
-	at org.testng.Assert.assertEquals(Assert.java:123)
-	at org.testng.Assert.assertEquals(Assert.java:176)
-	at AmoghMaven.one.build1.jb(build1.java:23)
-</failure>
-    <system-err><![CDATA[Starting ChromeDriver 2.29.461591 (62ebf098771772160f391d75e589dc567915b233) on port 7821
-Only local connections are allowed.
-Jul 12, 2017 3:36:11 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-]]></system-err>
-  </testcase>
-  <testcase name="main" classname="AmoghMaven.one.build1" time="0"/>
+  <testcase name="login" classname="AmoghMaven.one.build2" time="42.1"/>
+  <testcase name="execution" classname="AmoghMaven.one.build2" time="0.001"/>
 </testsuite>
