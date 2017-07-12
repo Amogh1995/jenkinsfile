@@ -16,6 +16,7 @@ pipeline {
 
         stage ('Build') {
             steps {
+                echo "This is a maven build" 
               bat "mvn  test"
             }
        
