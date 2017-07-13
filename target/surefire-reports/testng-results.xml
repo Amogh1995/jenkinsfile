@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="43007" started-at="2017-07-12T14:27:32Z" finished-at="2017-07-12T14:28:15Z">
+  <suite name="Suite" duration-ms="76032" started-at="2017-07-12T15:36:51Z" finished-at="2017-07-12T15:38:07Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="43007" started-at="2017-07-12T14:27:32Z" finished-at="2017-07-12T14:28:15Z">
+    <test name="Test" duration-ms="76032" started-at="2017-07-12T15:36:51Z" finished-at="2017-07-12T15:38:07Z">
       <class name="AmoghMaven.one.build2">
-        <test-method status="PASS" signature="Exceldata()[pri:0, instance:AmoghMaven.one.build2@30c7da1e]" name="Exceldata" is-config="true" duration-ms="893" started-at="2017-07-12T19:57:32Z" finished-at="2017-07-12T19:57:33Z">
+        <test-method status="PASS" signature="Exceldata()[pri:0, instance:AmoghMaven.one.build2@30c7da1e]" name="Exceldata" is-config="true" duration-ms="755" started-at="2017-07-12T21:06:51Z" finished-at="2017-07-12T21:06:52Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Exceldata -->
-        <test-method status="PASS" signature="login()[pri:0, instance:AmoghMaven.one.build2@30c7da1e]" name="login" duration-ms="42100" started-at="2017-07-12T19:57:33Z" finished-at="2017-07-12T19:58:15Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:AmoghMaven.one.build2@30c7da1e]" name="login" duration-ms="75258" started-at="2017-07-12T21:06:52Z" finished-at="2017-07-12T21:08:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="execution()[pri:0, instance:AmoghMaven.one.build2@30c7da1e]" name="execution" duration-ms="0" started-at="2017-07-12T19:58:15Z" finished-at="2017-07-12T19:58:15Z">
+        <test-method status="PASS" signature="execution()[pri:0, instance:AmoghMaven.one.build2@30c7da1e]" name="execution" duration-ms="0" started-at="2017-07-12T21:08:07Z" finished-at="2017-07-12T21:08:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- execution -->
-        <test-method status="PASS" signature="Logout()[pri:0, instance:AmoghMaven.one.build2@30c7da1e]" name="Logout" is-config="true" duration-ms="1" started-at="2017-07-12T19:58:15Z" finished-at="2017-07-12T19:58:15Z">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:AmoghMaven.one.build2@30c7da1e]" name="Logout" is-config="true" duration-ms="0" started-at="2017-07-12T21:08:07Z" finished-at="2017-07-12T21:08:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
