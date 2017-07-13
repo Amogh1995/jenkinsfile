@@ -75,7 +75,7 @@ public class build2 {
 	@Test(priority=2)
 	public void execution() 
 	{
-		System.out.println("TESTING");
+		System.out.println("TESTING1");
 		System.out.println(s);
 		System.out.println(expectedtitle);
 		
