@@ -5,7 +5,8 @@ pipeline {
         jdk 'JAVA_HOME' 
     }
     stages {
-        stage ('Initialize') {
+        stage ('Initialize')
+        {
             steps {
                
                     echo "PATH = ${PATH}"
