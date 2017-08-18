@@ -1,1 +1,1 @@
-java -jar server-0.26.2.jar -dataFolder /home/pi/Blynk
+java -jar server-0.26.2.jar -dataFolder /home/pi/Blynk.
